@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local models and generated files
+*.gguf
+*.bin
+*.pt
+*.pth
+models/
+*.log
+
+# Private/raw resume data - do not commit
+/data/Resumes/
+/data/resumes_raw.csv
+/data/resumes_cleaned.csv
+/data/parsed_resumes.csv

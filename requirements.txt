@@ -1,0 +1,9 @@
+pandas
+openpyxl
+PyPDF2
+streamlit
+numpy
+scikit-learn
+pdfplumber
+gpt4all
+nltk
